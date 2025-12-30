@@ -1,0 +1,60 @@
+name: Build and Host Custom Deb Packages
+on:
+  workflow_dispatch: # Allows you to click "Run" manually
+  schedule:
+    - cron: '0 2 * * 0' # Runs every Sunday at 2am
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    container: debian:trixie
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install System Utilities
+        run: |
+          apt-get update
+          apt-get install -y git gnupg reprepro
+
+      - name: Import GPG Key
+        run: |
+          echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --import
+
+      - name: Run Build Script
+        run: |
+          chmod +x wslg-mesa-vulkan.sh
+          ./wslg-mesa-vulkan.sh
+
+      - name: Create Repo Structure
+        run: |
+          mkdir -p repo/conf
+          
+          # Create configuration for 'reprepro'
+          # We use your GPG Key ID to sign.
+          # Get Key ID from the imported key
+          KEY_ID=$(gpg --list-keys --keyid-format LONG | grep pub | cut -d'/' -f2 | cut -d' ' -f1 | head -n1)
+          
+          echo "Origin: Datasone-Custom-Pkgs" > repo/conf/distributions
+          echo "Label: Datasone-Custom-Pkgs" >> repo/conf/distributions
+          echo "Codename: trixie" >> repo/conf/distributions
+          echo "Architectures: amd64" >> repo/conf/distributions
+          echo "Components: main" >> repo/conf/distributions
+          echo "Description: Custom Packages by datasone" >> repo/conf/distributions
+          echo "SignWith: $KEY_ID" >> repo/conf/distributions
+          
+          # Add the .deb files to the repo
+          reprepro --basedir ./repo includedeb trixie ./output/*.deb
+          
+          # Copy your public key to the repo root so users can download it
+          gpg --export --armor $KEY_ID > repo/public.key
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./repo
