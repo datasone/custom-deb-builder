@@ -22,7 +22,8 @@ CURRENT_VER=$(dpkg-parsechangelog -S Version)
 dch --newversion "1:$CURRENT_VER+wsl" "Automated build with d3d12 and microsoft-experimental enabled"
 dch --release ""
 
-dpkg-buildpackage -us -uc -b -j$(nproc)
+export DEB_BUILD_OPTIONS="parallel=2 noautodbgsym"
+dpkg-buildpackage -us -uc -b -j2
 
 cd ../..
 mkdir -p output
