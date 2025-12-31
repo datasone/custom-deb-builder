@@ -16,6 +16,7 @@ cd mesa-*
 sed -i '/ifneq (,$(filter $(DEB_HOST_ARCH), amd64 arm64))/a \ \ \ \ GALLIUM_DRIVERS += d3d12\n\ \ \ \ VULKAN_DRIVERS += microsoft-experimental' debian/rules
 
 echo "usr/bin/spirv2dxil" >> debian/mesa-vulkan-drivers.install
+echo "usr/lib/*/libspirv_to_dxil.a" >> debian/mesa-vulkan-drivers.install
 echo "usr/lib/*/libspirv_to_dxil.so" >> debian/mesa-vulkan-drivers.install
 
 CURRENT_VER=$(dpkg-parsechangelog -S Version)
