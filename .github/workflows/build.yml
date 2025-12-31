@@ -37,9 +37,7 @@ jobs:
           # Create configuration for 'reprepro'
           # We use your GPG Key ID to sign.
           # Get Key ID from the imported key
-          KEY_ID=$(gpg --list-keys --keyid-format LONG | grep pub | cut -d'/' -f2 | cut -d' ' -f1 | head -n1)
-
-          echo "$(gpg --list-keys --keyid-format LONG)"
+          KEY_ID=$(gpg --list-secret-keys --with-colons | grep '^sec:' | cut -d: -f5 | head -n1)
 
           echo "Detected Key ID: $KEY_ID"
           
