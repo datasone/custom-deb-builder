@@ -28,7 +28,7 @@ jobs:
       - name: Run Build Script
         run: |
           chmod +x wslg-mesa-vulkan.sh
-          # ./wslg-mesa-vulkan.sh
+          ./wslg-mesa-vulkan.sh
 
       - name: Create Repo Structure
         run: |
@@ -38,8 +38,6 @@ jobs:
           # We use your GPG Key ID to sign.
           # Get Key ID from the imported key
           KEY_ID=$(gpg --list-secret-keys --with-colons | grep '^sec:' | cut -d: -f5 | head -n1)
-
-          echo "Detected Key ID: $KEY_ID"
           
           echo "Origin: Datasone-Custom-Pkgs" > repo/conf/distributions
           echo "Label: Datasone-Custom-Pkgs" >> repo/conf/distributions
@@ -48,10 +46,6 @@ jobs:
           echo "Components: main" >> repo/conf/distributions
           echo "Description: Custom Packages by datasone" >> repo/conf/distributions
           echo "SignWith: $KEY_ID" >> repo/conf/distributions
-
-          echo "=== Content of repo/conf/distributions ==="
-          cat repo/conf/distributions
-          echo "=========================================="
           
           # Add the .deb files to the repo
           reprepro --basedir ./repo includedeb trixie ./output/*.deb
