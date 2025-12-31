@@ -1,0 +1,7 @@
+Origin: Datasone-Custom-Pkgs
+Label: Datasone-Custom-Pkgs
+Codename: trixie
+Architectures: amd64
+Components: main
+Description: Custom Packages by datasone
+SignWith: 81336436F54575EB

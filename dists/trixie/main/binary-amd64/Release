@@ -1,0 +1,5 @@
+Component: main
+Origin: Datasone-Custom-Pkgs
+Label: Datasone-Custom-Pkgs
+Architecture: amd64
+Description: Custom Packages by datasone
