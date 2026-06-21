@@ -11,10 +11,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/libegl-mesa0_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 122544
-SHA256: 2054a6015f383964e92a1d3f75957461645874fe0f08a7ee98a15427bc0485d1
-SHA1: 853a1ed8a3b4e74d03aa4d8a24dddcbb521c3f2d
-MD5sum: 0b2ba199c246e4a511a2835b09cbdb5d
+Size: 122432
+SHA256: 669a242bfc3dcc622873e3a91c23b691076e8daa4f42259fefa912654ee3191c
+SHA1: 560a3d949078fdc38dcc684b8087420bd6f43645
+MD5sum: c36af16570a0c823467320baf517bafa
 Description: free implementation of the EGL API -- Mesa vendor library
  This package contains the EGL native platform graphics interface library.
  EGL provides a platform-agnostic mechanism for creating rendering surfaces
@@ -34,10 +34,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: libdevel
 Filename: pool/main/m/mesa/libegl1-mesa-dev_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 24752
-SHA256: 693f80b868a0d7b71c5001b58ecfe5270be8a369b7a06f7d25e8643786341fbc
-SHA1: 19baf17521157ea625a8026eb360887af32faef6
-MD5sum: c057e9d587b1ce0c645c22de527aa934
+Size: 24756
+SHA256: acc210710d0586c5563ae5c259c62282db0a42fa888644d42601563ccdfe0ae1
+SHA1: 964a390d5798e769d0ea813dd4762e3ebb3e5cfd
+MD5sum: 9984566d91e61180e4c18eb9efed157c
 Description: free implementation of the EGL API -- development files
  This package contains the development environment required for compiling
  programs against EGL native platform graphics interface library.
@@ -59,10 +59,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: libdevel
 Filename: pool/main/m/mesa/libgbm-dev_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 26620
-SHA256: 31d8e12a0d7339b2c758a99ffb549ed2b6ead72a98b491a98703fd142aecfce9
-SHA1: e862ad8a038fff68080ac83ad0f22e5f4ceed43b
-MD5sum: e36239985da69618d59b6bd2ef747b97
+Size: 26612
+SHA256: 9fcefb1f8c5fbd582408760f9c684dc005d052358d6813ffa73545e9e2591dbc
+SHA1: 7a63254eed35dbbb1900827cee9393feb506a7d5
+MD5sum: 7b3a63dff51c77ce6e2faa75879fd5c9
 Description: generic buffer management API -- development files
  This package contains the GBM buffer management library.  It provides a
  mechanism for allocating buffers for graphics rendering tied to Mesa.
@@ -84,10 +84,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/libgbm1_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 46228
-SHA256: 4464d629ac3db96a15e1b0c8c7099396340080be97b2de6cdf26ff090702e057
-SHA1: 7cbdbeb939591cb0674656f97129206f2ad9afe6
-MD5sum: 5db69426dcda7283a4da177a60c868b8
+Size: 46240
+SHA256: a9e4ff2475aa0afecc765c6cd6ee29c37f08136511d8f92fd6c9e3583b4db46d
+SHA1: 1ba259b8aa1494ff5d72eaeaaf1e4a4d169ac1cf
+MD5sum: c8b51b9f92a78ab81637aebebe6bdbe6
 Description: generic buffer management API -- runtime
  This package contains the GBM buffer management library.  It provides a
  mechanism for allocating buffers for graphics rendering tied to Mesa.
@@ -106,10 +106,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/m/mesa/libgl1-mesa-dev_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 20552
-SHA256: 261453e0e732e8e6abc4731161674f80f404e285e43cb0515ed173c6ff6205c9
-SHA1: cf1987c2cd3f462d29053d0c95c42c92b4b92e0f
-MD5sum: a025e05dc2c0466930474e99f7d23d61
+Size: 20556
+SHA256: 9628917c41e5d4bd3a261cfecaefa156bfee113bcf34c732f332887b60c401da
+SHA1: c3815502cf023e04755804e40a2d08cb1925d0f2
+MD5sum: 8082912bc410e2fde3b7603d0f4d4e0a
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
@@ -125,10 +125,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/libgl1-mesa-dri_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 47928
-SHA256: a05600b9889041df498c8c11b2ddd93f50b0b57ad21c12e109bcdb9bb7c558c3
-SHA1: 77d643a3ee31ed6a0740d3191c365cfe3fbf4998
-MD5sum: 1438a7bcc2619a25d32837d9e335d74b
+Size: 47856
+SHA256: a36ad4a5eb91bbf64b98456d5394ec89b22a872468ac0e1b5df7384ae37c7dc0
+SHA1: 19a524ce219753057f53e2a6b3c7fd17259fa1b3
+MD5sum: 5829dd506b01cf1a7cb278a73e73dc93
 Description: free implementation of the OpenGL API -- DRI modules
  This version of Mesa provides GLX and DRI capabilities: it is capable of
  both direct and indirect rendering.  For direct rendering, it can use DRI
@@ -152,10 +152,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/m/mesa/libgles2-mesa-dev_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 20564
-SHA256: 1101f72e9603c853602e0f9bfe20455b595a41488e9ded511ab9dcc9c03aee55
-SHA1: 3412a9ee76ef907dbff978c0cd10edce20a03462
-MD5sum: 8b3ec88ea403971f6def1da2b9a67ba4
+Size: 20560
+SHA256: 8b91e2e2007ca9ba41f53980e663e7b681f0c0eb260d9900ffb7734750821555
+SHA1: 8af97af5b274b3318a323f3fc904951a061f559a
+MD5sum: 99886a1310d26479350fbc1b36bb1941
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
@@ -173,10 +173,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/libglx-mesa0_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 116156
-SHA256: 8e9d648e489c7d2ab01709801f474fee929a98f891bf39be4e376f0b86f93313
-SHA1: dfd4a4c3e5f56c91586e285727af8f0370482f26
-MD5sum: 5673a4bfa7efb9b7b4136a657539162e
+Size: 116316
+SHA256: 396892df09c2f48378c18aa270c638cbdfdcfe732034765d3d0239ed32525741
+SHA1: c9999a1907c8a928242bb9bf1a402150ca311ce8
+MD5sum: 81c4dc57f28ae15bf307c74fc7a73bc0
 Description: free implementation of the OpenGL API -- GLX vendor library
  Mesa is a 3-D graphics library with an API which is very similar to
  that of OpenGL.  To the extent that Mesa utilizes the OpenGL command
@@ -206,10 +206,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: libdevel
 Filename: pool/main/m/mesa/mesa-common-dev_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 3131368
-SHA256: 25a7357b3ce86423a5001e2b2ff01fea44624ab99acf2d9782d213a35d760431
-SHA1: 9195294a911440af4893fbdabe74eb0154078db6
-MD5sum: 38568725e1a66d796ac39bc711422f46
+Size: 3131552
+SHA256: 7500bec21fc3825dc0c2730fe3a329b4be5c079af0a0fd79bef83c5ed34a5938
+SHA1: 486425997a4c643f523a959e246127f227bc645d
+MD5sum: c240032241d7524c114869f41b9c6a36
 Description: Developer documentation for Mesa
  This package includes the specifications for the Mesa-specific OpenGL
  extensions, the complete set of release notes and the development header
@@ -227,10 +227,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/mesa-drm-shim_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 92468
-SHA256: f72b150b455149daecb7f28312f522aa0b9cf5880c895c2fa6f482ff766d055c
-SHA1: 8d9d915d79a22f18055a23cf00748a4650d9c297
-MD5sum: 9bfcf08d07ce9df46fd1858ddca104c1
+Size: 92292
+SHA256: 18fbb26f9905fabf0b8993ef74a8211f3d9f707a3ff7afb52b8b13aa1cc14255
+SHA1: 3e72e5be2cf0da0a3f4d5c1c7c80ba7cdd84df43
+MD5sum: 68d7428838a18dccecb2befaabc2a330
 Description: DRM shim libraries
  This package provides drm-shim libraries which can be used for testing DRM
  drivers when none exists on the host.
@@ -248,10 +248,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/mesa-libgallium_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 10080992
-SHA256: dc3591accfb915ee1e5cc47ba9b3e2cae432235425457e708c0822d5db88f850
-SHA1: bbcdae10e124910f4917dd407121ebe3d2a4c29c
-MD5sum: dd2ab672a13ca909068cb65c77618cb5
+Size: 10081324
+SHA256: 7e5d7838da00d3b67ec895be1b3d7f049a93b8a68f6e151aaed6d4107a0684cc
+SHA1: 7b53b8c6da54c351608167322f28ffff231d95ef
+MD5sum: ced4fb9b84fd5265c7689954a3aa6080
 Description: shared infrastructure for Mesa drivers
  This package contains libgallium, a private library shared between
  multiple Mesa drivers. This library is an implementation detail of Mesa
@@ -270,10 +270,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/mesa-opencl-icd_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 9120032
-SHA256: 489fd77e49bf141b50cbe8e76aba5fcc4366bbeebe21e16e2b843e00aab4c46b
-SHA1: 9b50ba1fbde79295f37efec9ac96f6a2718331ef
-MD5sum: 16231027a29140493549942e287f4777
+Size: 9119772
+SHA256: 77986da6304efb983ff829c5fd01574d70c18e435e0b563734f69bfc7316e8e6
+SHA1: d67e3b36e32a8a3751b51d1dd9dee9da0f0a9bfb
+MD5sum: b03fecfaea3e450700c44317306e368e
 Description: free implementation of the OpenCL API -- ICD runtime
  This package contains the mesa implementation of the OpenCL (Open Compute
  Language) library, which is intended for use with an ICD loader. OpenCL
@@ -297,9 +297,9 @@ Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/mesa-va-drivers_25.2.6-1~bpo13+1+wsl_amd64.deb
 Size: 20904
-SHA256: 51d803fdd079bdf72a213c25412e7df6a346e461f519289010652f59b30ea117
-SHA1: 14e8f68403a7403add7d41fc7d88a0bec7a24209
-MD5sum: cf60f22154a8dd8106d8fda789255c99
+SHA256: 590dca138dbe59e4e7c4710cf54bf0a72e01e07b218d43fc84608f503ca8d9b7
+SHA1: 8b382813c336f5662f0c29a11537e20be89bbb4b
+MD5sum: d4a8f0c7198fa9902c3973db93c9b980
 Description: Mesa VA-API video acceleration drivers
  These libraries provide the Video Acceleration API (VA-API) for Unix.
  They provide accelerated video playback (incl. H.264) and video
@@ -321,10 +321,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/mesa-vdpau-drivers_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 21020
-SHA256: 75c4a139842ae73dad28d0b7b55b5e87534c23a9c3d845555e334e6824b8414a
-SHA1: acf48df07e67beb25a0ccb5f4fd06e2fad1993bc
-MD5sum: 7ba563950923b6fee7396ae990a0bf4e
+Size: 21004
+SHA256: 630ebdca827b901d5e328d3b62082306a402f2a84ca73bfea1bddeb3bae03555
+SHA1: 1d780eec2131e18e1881a71a8f91dada25362b97
+MD5sum: 88004e75f56b7c7f6070bdd62398ab2c
 Description: Mesa VDPAU video acceleration drivers
  These libraries provide the Video Decode and Presentation API for Unix.
  They provide accelerated video playback (incl. H.264) and video
@@ -345,10 +345,10 @@ Homepage: https://mesa3d.org/
 Priority: optional
 Section: libs
 Filename: pool/main/m/mesa/mesa-vulkan-drivers_25.2.6-1~bpo13+1+wsl_amd64.deb
-Size: 20879840
-SHA256: 8c1865b6db26e3f97a7a11514bbb0ae4b924c66d18a897bdd5afa4351a3c6e4c
-SHA1: fd73b29dbe7e72c3656bbbab36938866650596f4
-MD5sum: 3ffac95d9700831858bdc3e3fa9dcf0d
+Size: 20878816
+SHA256: c275d1cc64e1c7092efcb1bf3decfa31f7256a085da41fd074286defa90753a1
+SHA1: edc07c14baaee8cf25002f019049b40c6fc6c04c
+MD5sum: 20386894ba3176c7c6f75f32728b084b
 Description: Mesa Vulkan graphics drivers
  Vulkan is a low-overhead 3D graphics and compute API. This package
  includes Vulkan drivers provided by the Mesa project.

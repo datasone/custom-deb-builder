@@ -1,19 +1,19 @@
 Origin: Datasone-Custom-Pkgs
 Label: Datasone-Custom-Pkgs
 Codename: trixie
-Date: Sun, 14 Jun 2026 07:15:54 UTC
+Date: Sun, 21 Jun 2026 07:24:17 UTC
 Architectures: amd64
 Components: main
 Description: Custom Packages by datasone
 MD5Sum:
- 63bdcd0235ddd3d0faf1e9a053b721c8 14861 main/binary-amd64/Packages
- 8a9007cfdabf5fdb4fe8bc82e6e68314 4035 main/binary-amd64/Packages.gz
+ cee0951ded688140958181714e13a1e6 14861 main/binary-amd64/Packages
+ 722623df923b597fc791aab864569d8d 4027 main/binary-amd64/Packages.gz
  55136e2975b1feb284843439bfa79641 134 main/binary-amd64/Release
 SHA1:
- 7b93c9fc508f6f09812bcc4693da890c991211c3 14861 main/binary-amd64/Packages
- 37cce672d39a9edfc3d215d0e9a8705356e8b813 4035 main/binary-amd64/Packages.gz
+ 47805c190abbf938ae8ae3304f2df4b553976492 14861 main/binary-amd64/Packages
+ c95fd44c85083578c1c46342d4a2521486e435ee 4027 main/binary-amd64/Packages.gz
  f5f5e739ac8797184e0c2814d6e7c6cb6ec3c954 134 main/binary-amd64/Release
 SHA256:
- 801f356dc392a8f4073bf371c3a75066909d1c3cd02859af281d67f2d8e1ae68 14861 main/binary-amd64/Packages
- d52586114b21409a45b67883a933ec6c6e16ab3a71a31f5558954e41f0c53175 4035 main/binary-amd64/Packages.gz
+ 78262b82ead0ad80fdd40d51c92d9f5c900917310fe49e126442bd129aaee26f 14861 main/binary-amd64/Packages
+ 483dc48a7d062a52a19034f01005abe6733165940b482aba8e2b5845e12f9f9b 4027 main/binary-amd64/Packages.gz
  810f19f95149f6393cf93d7706b2801b0e0c820bc7ea5df50a887e042ab5b8d8 134 main/binary-amd64/Release
