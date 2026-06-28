@@ -4,35 +4,35 @@ Hash: SHA512
 Origin: Datasone-Custom-Pkgs
 Label: Datasone-Custom-Pkgs
 Codename: trixie
-Date: Sun, 21 Jun 2026 07:24:17 UTC
+Date: Sun, 28 Jun 2026 06:52:53 UTC
 Architectures: amd64
 Components: main
 Description: Custom Packages by datasone
 MD5Sum:
- cee0951ded688140958181714e13a1e6 14861 main/binary-amd64/Packages
- 722623df923b597fc791aab864569d8d 4027 main/binary-amd64/Packages.gz
+ 6a357153230eee3983daff0e9ae0f7d9 14861 main/binary-amd64/Packages
+ 143a9df23f72a69655be231456393c0a 4028 main/binary-amd64/Packages.gz
  55136e2975b1feb284843439bfa79641 134 main/binary-amd64/Release
 SHA1:
- 47805c190abbf938ae8ae3304f2df4b553976492 14861 main/binary-amd64/Packages
- c95fd44c85083578c1c46342d4a2521486e435ee 4027 main/binary-amd64/Packages.gz
+ ed02ce9ff3df143e3f8379b3e944c265e087f668 14861 main/binary-amd64/Packages
+ ccba915a88ca0ad058142b97250afbfacd54495d 4028 main/binary-amd64/Packages.gz
  f5f5e739ac8797184e0c2814d6e7c6cb6ec3c954 134 main/binary-amd64/Release
 SHA256:
- 78262b82ead0ad80fdd40d51c92d9f5c900917310fe49e126442bd129aaee26f 14861 main/binary-amd64/Packages
- 483dc48a7d062a52a19034f01005abe6733165940b482aba8e2b5845e12f9f9b 4027 main/binary-amd64/Packages.gz
+ 2d817ad6aa760a3fc4507f7578878f54a50429cb74f1c7982b0993bf1a7e47cd 14861 main/binary-amd64/Packages
+ 1c77f5d7b59079f34df177aba1399dca32cd6bcb23f8e52792648b7fcd85fdf8 4028 main/binary-amd64/Packages.gz
  810f19f95149f6393cf93d7706b2801b0e0c820bc7ea5df50a887e042ab5b8d8 134 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEB6qNFOp20sA2/n7vgTNkNvVFdesFAmo3kaEACgkQgTNkNvVF
-deuaDhAApjsyXYiLFVDjTVzjY9AKUzjisq2zMWSI6SIfDguP+tKTI71Nf2CczFLW
-QSedTkUUZ5XA3YLbxaNW1tn42vx66KaRdNGuD9VbyugLuJe9EUq0r9GurMhx3Yr9
-xPLdHQULMiw3bJ0JeykmHsFe485FdNocebB3/nBMAhXk+g7dYsNboSvhbq7AWzLz
-rx3yfQjLT/ChjErl0nebYLs0d3m7zlDWDu3NPbDcXE5RMmvpp6iXbVuWujTBUNIC
-uDG5+O6mjknDmkMYf2tGjPSFnfVYqHOMer5/GXCPwbN28RoVtPReCX3VfAAjIfGh
-hmsTPtBl3jtvmQtltSRfpXz9p/rH/oqK4xN1Ucb0FjkxWDbVDlFnYcW7rl68tG5W
-VHL4zbAJePgZo62PRDqh+QldKQydWX+tWen9L7jhVba7Ac4mD485o5R1RQ7bieVp
-8wQL5JPpPVgw8tkNgZX5uTlAq75vyvZoDG+PyzWwZMGfzLEcl+DV+0ywXua0LAmz
-7C+8V1cAjqaOIsICPw9M7QvQxnxaT0CQsisiX7WH7yhyrtsbeCAMdzhMm8bB5xQZ
-n0ygCiresic98L5daIz3ubpnAXCnLqSGv35X08dhcpvqWh8ClTyRYphSD8dMmNF5
-ZGieLClA3jvUIrbe2ZxpGtOX6ePg9yC7sJVFg0x7ydJqSuVor4s=
-=U1me
+iQIzBAEBCgAdFiEEB6qNFOp20sA2/n7vgTNkNvVFdesFAmpAxMUACgkQgTNkNvVF
+det4axAAkNMOC4Vhgl9bTX03fxa1V0ql8I+u+yTcDlbhC/7Hw7TP1M68aNWotC6m
+p7qeEE1yQBUFw3wFSJ8oV3OxUkKoZQ3u3Bz7xEiWFQm005BUT7AShuVcmB69F/xa
+yzHuCRH17BVbR3MIzSXbfUqcudcy7mmr7wswjweeT9HpyJV7SwzbBmyIbYNvhjNI
+LE4S2zzighIzw4koZkNr9Y5/MCfZQYHc9/R1nQYgfvV8MjmL89JDDODzex99c/f3
+IW7jyvvB1NBqUJdVE30eI9ysd+8Gh+NAw6/TBESy59gTRLSTTwkdisVR9r/4ZBmc
+qBymXoPdumhh0VQqL250tBy0a9v6isxtEQYnYhG3I1hgoQcBceVe5gUVkzFq7Eks
+NNd/weStpx5y1pL/uC1y6W/CztJJkBw7SaxmTvJBhBkdTtmBMFRtTuzIs1w2ZRR7
+xsDH58YSKlhDMmCU4tPezXgrxEJ0n2vhCWmAylwpjUcw//Moa6AmzEwuEKNXFY0x
+z2IG5jsYhaQdVd2oK7IUAsJLWgz3MAO2m/jIajA2nNkWI7K3JXtKAa70gBjt+HKt
+5o4ubQA73FMaJqGeGdGvCW+xXgklqoxMXmWndveYC02SyJOtMCJgiHLAtwIJdVeE
+UtA81FstjemaIP2YubDyxKoenWrztFaWdfY4AoQUZUSAzvZlhDQ=
+=8dtk
 -----END PGP SIGNATURE-----
